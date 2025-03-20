@@ -10,24 +10,30 @@ define e = Character("Eileen")
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    call ch1ep1 from ch1ep1Start
 
-    scene bg room
+    call ch1ep2 from ch1ep2Start
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    call ch1ep3 from ch1ep3Start
 
-    show eileen happy
+    call ch1ep4 from ch1ep4Start
 
-    # These display lines of dialogue.
+    call ch1ep5 from ch1ep5Start
 
-    e "You've created a new Ren'Py game."
+    call ch2ep1 from ch2ep1Start
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    call ch2ep2 from ch2ep2Start
 
-    # This ends the game.
+    call ch2ep3 from ch2ep3Start
+
+    call ch2ep4 from ch2ep4Start
+
+    call ch2ep5 from ch2ep5Start
+
+    call ch3ep1 from ch3ep1Start
+
+    call ch3ep2 from ch3ep2Start
+
+    call ch3ep3 from ch3ep3Start
 
     return
