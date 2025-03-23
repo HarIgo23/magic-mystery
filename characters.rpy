@@ -1,0 +1,1 @@
+define fox = Character("Фокс")
