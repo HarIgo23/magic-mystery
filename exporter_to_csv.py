@@ -4,6 +4,7 @@ filenames = [
 
 knownSpeakers = [
     "fox",
+    "tom",
     "lastar",
     "\"\"",
     "\"???\"",
